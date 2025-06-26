@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+#container {
+  display: flex;
+  gap: 2rem;
+}
+#post-list {
+  width: 250px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.post-item {
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+#post-detail {
+  flex: 1;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+form {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.hidden {
+  display: none;
+}
