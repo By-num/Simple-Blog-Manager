@@ -67,7 +67,6 @@ function addNewPostListener() {
   });
 }
 
-// Edit and Delete
 function showEditForm(post) {
   const form = document.getElementById("edit-post-form");
   form.classList.remove("hidden");
